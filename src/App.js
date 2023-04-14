@@ -42,6 +42,7 @@ function App() {
     }
   }
 
+
   const showMSG3=()=>{
     if(showMsg3===true){
       return <h5>To search for a new city and delete the current city, please click on the search input</h5>
@@ -83,8 +84,8 @@ function App() {
         <input onClick={() => { setShowMsg3(false);setShowMsg2(false); setInfo([]); clearInp() }} id='inp1' onChange={(e) => { setName(e.target.value) }} type='text' placeholder='enter place' />
         <button disabled={flag ? true : false} id='btn1' onClick={() => { checkData() }}>search</button> <br />
       </div>
-      {showMSG3()}
       {ShowMsg2()}
+      {showMSG3()}
       {pFunc()}
       {checkInfo()}
       <Search info={info} />

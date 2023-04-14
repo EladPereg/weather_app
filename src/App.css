@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to right, #00ccff, #00ffd9, #00b3ff);
+  height: 713px;
+}
+
+@media (max-width:1300px) {
+  #inp1 {
+    margin-left: 10px;
+  }
+
+  #p1 {
+    font-size: 20px;
+    display: contents;
+  }
+
+}
+
+@media(max-width:700px) {
+  #emptyInfo {
+    display: none;
+  }
+
+  #MSG {
+    font-size: large;
+    margin-top: 45%;
+  }
+
+  #overcast {
+    position: relative;
+    right: 45px;
+    border-radius: 25px;
+  }
+
+  #clearSky {
+    position: relative;
+    right: 45px;
+    border-radius: 25px;
+  }
+
+  #rain {
+    position: relative;
+    right: 45px;
+    border-radius: 25px;
+  }
+
+  #snow {
+    position: relative;
+    right: 45px;
+    border-radius: 25px;
+  }
+
+  #sun {
+    position: relative;
+    right: 55px;
+    border-radius: 25px;
+  }
+
+  #p2 {
+    left: 20px;
+  }
+
+}
+
+#navBar {
+  background-color: orange;
+  height: 80px;
+}
+
+#p1 {
+  color: aliceblue;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 10px;
+}
+
+#p2 {
+  position: relative;
+  top: -20px;
+  font-size: large;
+  font-weight: 600;
+  margin-left: -5.5%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#inp1 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  width: 230px;
+  height: 30px;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+#btn1 {
+  margin-left: 10px;
+  width: 80px;
+  height: 23px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: aliceblue;
+  font-style: italic;
+  font-size: medium;
+}
+
+#emptyInfo {
+  width: 380px;
+  height: 315px;
+  margin-left: 36.5%;
+  background-image: url('style/picture/allweathers.png');
+  background-repeat: no-repeat;
+}
+
+#snow {
+  width: 125px;
+  height: 89px;
+  margin-left: 45%;
+  background-image: url('style/picture/snow.png');
+  background-repeat: no-repeat;
+}
+
+#rain {
+  width: 140px;
+  height: 90px;
+  margin-left: 45%;
+  background-image: url('style/picture/rain.png');
+  background-repeat: no-repeat;
+}
+
+#overcast {
+  width: 135px;
+  height: 88px;
+  margin-left: 45%;
+  background-image: url('style/picture/overcast.png');
+  background-repeat: no-repeat;
+}
+
+#clearSky {
+  width: 139px;
+  height: 100px;
+  margin-left: 45%;
+  background-image: url('style/picture/clearSky.png');
+  background-repeat: no-repeat;
+}
+
+#sun {
+  width: 165px;
+  height: 92px;
+  margin-left: 45%;
+  background-image: url('style/picture/sun.png');
+  background-repeat: no-repeat;
+}
+
+.info {
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+}

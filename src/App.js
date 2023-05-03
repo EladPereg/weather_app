@@ -45,7 +45,7 @@ function App() {
 
   const showMSG3=()=>{
     if(showMsg3===true){
-      return <h5>To search for a new city and delete the current city, please click on the search input</h5>
+      return <h5 id='toKeepSearchMSG'>To search for a new city and delete the current city, please click on the search input</h5>
     }
   }
 

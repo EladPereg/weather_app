@@ -1,65 +1,9 @@
 .App {
   text-align: center;
+}
+
+body {
   background: linear-gradient(to right, #00ccff, #00ffd9, #00b3ff);
-  height: 713px;
-}
-
-@media (max-width:1300px) {
-  #inp1 {
-    margin-left: 10px;
-  }
-
-  #p1 {
-    font-size: 20px;
-    display: contents;
-  }
-
-}
-
-@media(max-width:700px) {
-  #emptyInfo {
-    display: none;
-  }
-
-  #MSG {
-    font-size: large;
-    margin-top: 45%;
-  }
-
-  #overcast {
-    position: relative;
-    right: 45px;
-    border-radius: 25px;
-  }
-
-  #clearSky {
-    position: relative;
-    right: 45px;
-    border-radius: 25px;
-  }
-
-  #rain {
-    position: relative;
-    right: 45px;
-    border-radius: 25px;
-  }
-
-  #snow {
-    position: relative;
-    right: 45px;
-    border-radius: 25px;
-  }
-
-  #sun {
-    position: relative;
-    right: 55px;
-    border-radius: 25px;
-  }
-
-  #p2 {
-    left: 20px;
-  }
-
 }
 
 #navBar {
@@ -155,4 +99,81 @@
 .info {
   font-size: larger;
   font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width:1300px) {
+  #inp1 {
+    margin-left: 10px;
+  }
+
+  #p1 {
+    font-size: 20px;
+    display: contents;
+  }
+
+}
+
+@media(max-width:700px) {
+  #inp1 {
+    width: 185px;
+  }
+
+  #btn1 {
+    font-weight: 800;
+    color: black;
+    border: 2px white solid;
+  }
+
+  #emptyInfo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+  }
+
+  #MSG {
+    font-size: large;
+    margin-top: 25%;
+    background-color: rgba(0, 0, 0, 0.741);
+    color: white;
+    box-shadow: 2px 0.5px 10px 5px orange;
+    border-radius: 10px;
+  }
+
+  #overcast {
+    position: relative;
+    right: 45px;
+    border-radius: 25px;
+  }
+
+  #clearSky {
+    position: relative;
+    right: 45px;
+    border-radius: 25px;
+  }
+
+  #rain {
+    position: relative;
+    right: 45px;
+    border-radius: 25px;
+  }
+
+  #snow {
+    position: relative;
+    right: 45px;
+    border-radius: 25px;
+  }
+
+  #sun {
+    position: relative;
+    right: 55px;
+    border-radius: 25px;
+  }
+
+  #p2 {
+    left: 20px;
+  }
+
+  #toKeepSearchMSG {
+    display: none;
+  }
 }
